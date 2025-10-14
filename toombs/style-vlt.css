@@ -1,0 +1,94 @@
+body {
+	font-family: Times, serif;
+	font-size: 12pt;
+	background-color: #ccc;
+	color: #000;
+}
+
+a:link {
+	color:#660;
+	text-decoration: none;
+}
+a:visited {
+	color:#993;
+	text-decoration: none;
+}
+a:hover {
+	color:#660;
+	text-decoration: underline;
+}
+
+#contentMain {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff;
+}
+
+#header {
+	width: 900px;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+	/* background: url(images/virginia-toombs1.jpg) no-repeat; */
+	background-color: #ffd;
+}
+
+#header h2 {
+	color: #933;
+	border: 0px solid red;
+	padding: 25px 0;
+	margin: 0;
+	font-variant: small-caps;
+}
+#header h3 {
+	color: #933;
+	border: 0px solid red;
+	padding: 18px 0;
+	margin: 0;
+	font-variant: small-caps;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 10px;
+	width: 350px;
+	background-color: #fff;
+	float: left;
+}
+.content ul {
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	background-color: #fff;
+	list-style-type: none;
+}
+.content ul li {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+.photos {
+	margin: 0;
+	padding: 0;
+}
+.photos ul {
+	margin: 0;
+	padding: 0;
+}
+.photos li {
+	background-color: #ffc;
+	margin: 0;
+	padding: 10px;
+	width: 350px;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+}
+
+p.clear {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
